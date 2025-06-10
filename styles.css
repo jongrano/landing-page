@@ -82,3 +82,40 @@ header {
     border-radius: 10px;
 }
 
+.section.white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.stItems {
+    display: flex;
+    gap: 50px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.stItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+}
+
+.caption {
+    margin-top: 7px;
+    color: #5e5e5e;
+}
+
+.white-title {
+    margin-bottom: 25px;
+}
