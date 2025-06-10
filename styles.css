@@ -19,7 +19,6 @@ header {
     display: flex;
     gap: 20px;
     margin-left: auto;
-    font-style: normal;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -52,7 +51,7 @@ header {
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 900;
     margin: 0;
     width: 90%;
 }
@@ -62,9 +61,10 @@ header {
     margin-top: 3px;
     margin-bottom: 10px;
     color: #F9FAF8;
+    font-size: 18px;
 }
 
-.section.blue {
+.blue {
     background-color: #1F2937;
 }
 
@@ -82,7 +82,7 @@ header {
     border-radius: 10px;
 }
 
-.section.white {
+.white {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,5 +117,29 @@ header {
 }
 
 .white-title {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.gray {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0 125px 0 125px;
+}
+
+.author {
+    text-align: end;
+    margin: 0;
+    margin-right: 175px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
 }
