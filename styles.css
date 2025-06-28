@@ -176,3 +176,15 @@ header {
     margin-left: auto;
     margin-right: 125px;
 }
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
