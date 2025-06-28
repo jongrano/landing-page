@@ -36,13 +36,12 @@ header {
 
 .top-text {
     width: 50%;
-    margin: 0;
 }
 
 .placeholder {
     width: 50%;
     background-color: #8a8a8a;
-    color: white;
+    color: #F9FAF8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +49,7 @@ header {
 
 .hero-text {
     font-size: 48px;
-    color: #F9FAF8;
+    color: white;
     font-weight: 900;
     margin: 0;
     width: 90%;
@@ -76,7 +75,7 @@ header {
     justify-content: center;
     font-size: 18px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: white;
     background-color: #3882F6;
     border: 0;
     border-radius: 10px;
@@ -142,4 +141,38 @@ header {
     margin-bottom: 15px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.blue-rectangle {
+    background-color: #3882F6;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.bottom-left-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 115px 0 115px;
+}
+
+.bottom-header {
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.bottom-p {
+    margin-top: 2px;
+    color: #F9FAF8;
+}
+
+#white-outline {
+    border: 2px solid #F9FAF8;
+    width: 140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 125px;
 }
